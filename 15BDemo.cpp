@@ -14,6 +14,12 @@ SomeType half(SomeType number)
 	return number / 2;
 }
 
+int half(int c) {
+	float number = static_cast<float>(c);
+	number = round(number / 2);
+	return number;
+}
+
 int main() {
 	double a = 7.0;
 	float b = 5.0f;
