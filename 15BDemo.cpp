@@ -5,7 +5,14 @@
 */
 
 #include <iostream>
+#include <cmath>
 using namespace std;
+
+template <class SomeType>
+SomeType half(SomeType number)
+{
+	return number / 2;
+}
 
 int main() {
 	double a = 7.0;
